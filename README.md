@@ -4,7 +4,7 @@ A Microsoft Power Apps canvas app that gives a sales team a quick overview of it
 
 ![Power Apps](https://img.shields.io/badge/Power_Apps-Canvas_app-742774?style=flat-square) ![Power Fx](https://img.shields.io/badge/Power_Fx-formulas-742774?style=flat-square) ![SharePoint](https://img.shields.io/badge/SharePoint-4_lists-0078D4?style=flat-square) ![Status](https://img.shields.io/badge/Status-Dashboard_prototype-e48fb1?style=flat-square)
 
-### ▶️ [Try the live web demo](https://navya1223.github.io/power-apps-crm-dashboard/)
+### ▶️ [Try the live web demo](https://navya1223.github.io/CRM-Management-System/)
 
 Power Apps needs a Microsoft 365 licence to run, so this repository also includes a **web version of the app**. It recreates the dashboard in plain HTML and JavaScript with sample data, so you can try it in any browser without a Microsoft account.
 
@@ -95,7 +95,7 @@ The readable source of the app (Power Fx in YAML) is in [`power-apps/source`](po
 ## Repository structure
 
 ```
-power-apps-crm-dashboard/
+CRM-Management-System/
 ├── index.html                          # Web demo (GitHub Pages)
 ├── images/                             # Screenshots and architecture diagram
 └── power-apps/
