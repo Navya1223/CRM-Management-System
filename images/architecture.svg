@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Architecture: Power Apps CRM dashboard reads four SharePoint lists">
+  <style>
+    text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;fill:#1f2330}
+    .h{font-size:16px;font-weight:600}
+    .s{font-size:12.5px;fill:#5f6577}
+    .list{fill:#fff;stroke:#0078d4;stroke-width:1.8}
+    .arrow{stroke:#532e67;stroke-width:2.2;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#532e67"/></marker></defs>
+  <rect width="900" height="340" fill="#f7f8fc" rx="14"/>
+
+  <rect x="30" y="60" width="330" height="220" rx="12" fill="#fff" stroke="#532e67" stroke-width="2"/>
+  <rect x="30" y="60" width="330" height="40" rx="12" fill="#532e67"/>
+  <rect x="30" y="84" width="330" height="16" fill="#532e67"/>
+  <text x="195" y="86" text-anchor="middle" style="font-size:16px;font-weight:600;fill:#fff">Power Apps canvas app</text>
+  <text class="h" x="50" y="130">DashboardScreen</text>
+  <text class="s" x="50" y="152">Sidebar navigation · welcome message</text>
+  <rect x="50" y="168" width="68" height="46" rx="6" fill="#f7f8fc" stroke="#e48fb1"/>
+  <rect x="124" y="168" width="68" height="46" rx="6" fill="#f7f8fc" stroke="#e48fb1"/>
+  <rect x="198" y="168" width="68" height="46" rx="6" fill="#f7f8fc" stroke="#e48fb1"/>
+  <rect x="272" y="168" width="68" height="46" rx="6" fill="#f7f8fc" stroke="#e48fb1"/>
+  <text class="s" x="84" y="196" text-anchor="middle">Total</text>
+  <text class="s" x="158" y="196" text-anchor="middle">Active</text>
+  <text class="s" x="232" y="196" text-anchor="middle">Opps</text>
+  <text class="s" x="306" y="196" text-anchor="middle">Activities</text>
+  <text class="s" x="50" y="246">4 KPI cards: CountRows(Filter(...))</text>
+
+  <rect class="list" x="560" y="24"  width="310" height="62" rx="10"/>
+  <rect class="list" x="560" y="98"  width="310" height="62" rx="10"/>
+  <rect class="list" x="560" y="172" width="310" height="62" rx="10"/>
+  <rect class="list" x="560" y="246" width="310" height="62" rx="10"/>
+  <text class="h" x="578" y="50">Customers</text>
+  <text class="s" x="578" y="72">Company · Industry · Status · Sales rep</text>
+  <text class="h" x="578" y="124">Contacts</text>
+  <text class="s" x="578" y="146">Name · Customer (lookup) · Job title</text>
+  <text class="h" x="578" y="198">Opportunities</text>
+  <text class="s" x="578" y="220">Customer · Stage · Deal value · Close date</text>
+  <text class="h" x="578" y="272">Activities</text>
+  <text class="s" x="578" y="294">Type · Due date · Assigned to · Status</text>
+
+  <path class="arrow" d="M557 55 C470 55 450 150 363 160"/>
+  <path class="arrow" d="M557 129 C480 129 450 165 363 168"/>
+  <path class="arrow" d="M557 203 C480 203 450 180 363 176"/>
+  <path class="arrow" d="M557 277 C470 277 450 195 363 184"/>
+  <text class="s" x="460" y="320" text-anchor="middle">SharePoint lists (read)</text>
+</svg>
